@@ -52,5 +52,9 @@ Run both the **frontend** and **backend** servers simultaneously. Frontend runs 
 ## Created by
 
 Tadakamalla Sai Pranay  
+
+
 GitHub: [https://github.com/PranayTadakamalla](https://github.com/PranayTadakamalla)  
+
+
 LinkedIn: [https://in.linkedin.com/in/sai-pranay-tadakamalla-7570bb1a6](https://in.linkedin.com/in/sai-pranay-tadakamalla-7570bb1a6)
