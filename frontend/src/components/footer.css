@@ -1,0 +1,35 @@
+/* src/components/footer.css */
+.footer {
+  background-color: #000000; /* Bootstrap info color */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1000;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Ensure the footer sticks to the bottom when the content is short */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.content {
+  flex-grow: 1;
+}

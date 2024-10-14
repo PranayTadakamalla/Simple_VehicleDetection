@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #000000; /* Light blue */
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important; /* White text */
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #000000 !important; /* Light gray on hover */
+}
+
+.nav-link.btn-link {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link.btn-link:hover {
+  color: #dcdcdc !important;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+/* Add space between the buttons */
+.ml-2 {
+  margin-left: 10px;
+}

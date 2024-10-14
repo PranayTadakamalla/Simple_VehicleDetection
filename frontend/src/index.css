@@ -1,0 +1,47 @@
+/* src/index.css */
+
+/* Normalize and reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #17a2b8; /* Bootstrap info color */
+}
+
+footer {
+  text-align: center;
+  background-color: #17a2b8;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Additional styles for content boxes */
+.content-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
